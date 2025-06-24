@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|c:\\users\\user\\desktop\\to_inform\\bot_to_inform\\bot_to_inform\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|solutionrelative:bot_to_inform\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|c:\\users\\user\\desktop\\to_inform\\bot_to_inform\\bot_to_inform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|solutionrelative:bot_to_inform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|c:\\users\\user\\desktop\\to_inform\\bot_to_inform\\bot_to_inform\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|solutionrelative:bot_to_inform\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\User.cs",
+              "RelativeDocumentMoniker": "Bot_to_inform\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\User.cs",
+              "RelativeToolTip": "Bot_to_inform\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T23:33:57.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\DbContext.cs",
+              "RelativeDocumentMoniker": "Bot_to_inform\\DbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\DbContext.cs",
+              "RelativeToolTip": "Bot_to_inform\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T23:31:23.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\Program.cs",
+              "RelativeDocumentMoniker": "Bot_to_inform\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\Program.cs",
+              "RelativeToolTip": "Bot_to_inform\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:01:36.815Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 628,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

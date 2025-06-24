@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Bot_to_inform": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
