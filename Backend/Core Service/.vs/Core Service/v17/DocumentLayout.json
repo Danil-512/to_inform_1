@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProjectsVisualStudio\\Core Service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|d:\\projectsvisualstudio\\core service\\coreservice.domain\\enums\\industryenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|solutionrelative:coreservice.domain\\enums\\industryenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|d:\\projectsvisualstudio\\core service\\coreservice.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|solutionrelative:coreservice.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|d:\\projectsvisualstudio\\core service\\coreservice.domain\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|solutionrelative:coreservice.domain\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|d:\\projectsvisualstudio\\core service\\coreservice.domain\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|solutionrelative:coreservice.domain\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|d:\\projectsvisualstudio\\core service\\coreservice.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|solutionrelative:coreservice.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|d:\\projectsvisualstudio\\core service\\coreservice.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|solutionrelative:coreservice.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|d:\\projectsvisualstudio\\core service\\coreservice.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|solutionrelative:coreservice.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|d:\\projectsvisualstudio\\core service\\coreservice.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|solutionrelative:coreservice.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|d:\\projectsvisualstudio\\core service\\coreservice.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|solutionrelative:coreservice.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|d:\\projectsvisualstudio\\core service\\coreservice.domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DFE986-719E-4D8B-B611-DEB3ADBA83DA}|CoreService.Domain\\CoreService.Domain.csproj|solutionrelative:coreservice.domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IndustryEnum.cs",
+              "DocumentMoniker": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Enums\\IndustryEnum.cs",
+              "RelativeDocumentMoniker": "CoreService.Domain\\Enums\\IndustryEnum.cs",
+              "ToolTip": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Enums\\IndustryEnum.cs",
+              "RelativeToolTip": "CoreService.Domain\\Enums\\IndustryEnum.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:59:53.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "CoreService.Domain\\Entities\\Tag.cs",
+              "ToolTip": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Tag.cs",
+              "RelativeToolTip": "CoreService.Domain\\Entities\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:51:08.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Answer.cs",
+              "RelativeDocumentMoniker": "CoreService.Domain\\Entities\\Answer.cs",
+              "ToolTip": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Answer.cs",
+              "RelativeToolTip": "CoreService.Domain\\Entities\\Answer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:41:25.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "CoreService.Domain\\Entities\\Category.cs",
+              "ToolTip": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "CoreService.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:41:13.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Rating.cs",
+              "RelativeDocumentMoniker": "CoreService.Domain\\Entities\\Rating.cs",
+              "ToolTip": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Rating.cs",
+              "RelativeToolTip": "CoreService.Domain\\Entities\\Rating.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:40:58.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "CoreService.Domain\\Entities\\Company.cs",
+              "ToolTip": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Company.cs",
+              "RelativeToolTip": "CoreService.Domain\\Entities\\Company.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:40:42.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "CoreService.Domain\\Entities\\Comment.cs",
+              "ToolTip": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Comment.cs",
+              "RelativeToolTip": "CoreService.Domain\\Entities\\Comment.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:40:33.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Question.cs",
+              "RelativeDocumentMoniker": "CoreService.Domain\\Entities\\Question.cs",
+              "ToolTip": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\Question.cs",
+              "RelativeToolTip": "CoreService.Domain\\Entities\\Question.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:40:17.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\UserProfile.cs",
+              "RelativeDocumentMoniker": "CoreService.Domain\\Entities\\UserProfile.cs",
+              "ToolTip": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\UserProfile.cs",
+              "RelativeToolTip": "CoreService.Domain\\Entities\\UserProfile.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwCUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:40:06.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CoreService.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\ProjectsVisualStudio\\Core Service\\CoreService.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "CoreService.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:39:53.64Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 628,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
