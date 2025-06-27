@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Bot_to_inform
 {
+    [Table("User")]
     public class User
     {
         // Первичный ключ
@@ -16,8 +17,6 @@ namespace Bot_to_inform
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id {  get; set; }
         public string Login { get; set; } = "";
-        public string Tg_username { get; set; }
         public DateTime Reg_date { get; set; } = DateTime.UtcNow;
-        public string Login1 { get; set; } = "";
     }
 }

@@ -7,6 +7,7 @@ using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Microsoft.EntityFrameworkCore;
+using Telegram.Bot.Types.ReplyMarkups;
 
 namespace Bot_to_inform
 {
@@ -61,53 +62,141 @@ namespace Bot_to_inform
             // Переменная для хранения полученного сообщения
             var message = update.Message;
 
-            Console.WriteLine($"Получено сообщение от пользователя {message.Chat.Username} в {DateTime.Now}");
+            Console.WriteLine($"Получено сообщение от пользователя {message.Chat.Username} в {DateTime.Now}, ид чата {message.Chat.Id}");
 
-            // Определяем, какого типа получено сообщение
-            if (message.Text != null)
+            // Начало работы с базой
+            using (ApplicationContext db = new ApplicationContext())
             {
-                Console.WriteLine($"Cообщение от пользователя {message.Chat.Username} в {DateTime.Now} имеет текст");
+                Console.WriteLine("Начало обращения к базе");
 
-                if (message.Text.ToUpper().Contains("ПРИВЕТ"))
+                // Нужно узнать, есть ли сейчас в таблице такой пользователь - новый ли это чат.
+                bool tg_user_exists = await db.Tg_Users.AnyAsync(u => u.Tg_chat_id == $"{message.Chat.Id}");
+
+                if (tg_user_exists)
                 {
-                    Console.WriteLine("Пользователь поздоровался.");
-
-                    // Можно ответить пользователю
-                    await bot_client.SendMessage(message.Chat.Id, "Тебе тоже привет!");
-                    return;
+                    Console.WriteLine("Этот чат уже есть в таблице");
                 }
-
-                if (message.Text.ToUpper().Contains("РЕГИСТРАЦИЯ"))
+                else
                 {
-                    Console.WriteLine("Регистрация пользователя");
+                    Console.WriteLine("Чата нет в таблице, его нужно создать.");
 
+                    // Экземпляр класса тг_пользователь.
+                    Tg_user tg_user1 = new Tg_user { Tg_username = $"{message.Chat.Username}", Tg_chat_id = $"{message.Chat.Id}" };
 
-                    // добавление данных
-                    using (ApplicationContext db = new ApplicationContext())
-                    {
-                        // создаем два объекта User
-                        User user1 = new User { Tg_username = $"{message.Chat.Username}"};
-                        Console.WriteLine("Начало добавления пользователя");
+                    db.Tg_Users.AddRange(tg_user1);
+                    db.SaveChanges();
 
-                        // добавляем их в бд
-                        db.Users.AddRange(user1);
-                        db.SaveChanges();
-                        await bot_client.SendMessage(message.Chat.Id, "Новый пользователь записан.");
-                        Console.WriteLine("Пользователь успешно создан");
-                    }
-                    // получение данных
-                    using (ApplicationContext db = new ApplicationContext())
-                    {
-                        // получаем объекты из бд и выводим на консоль
-                        var users = db.Users.ToList();
-                        Console.WriteLine("Users list:");
-                        foreach (User u in users)
-                        {
-                            Console.WriteLine($"{u.Id}:{u.Tg_username} - {u.Reg_date}");
-                        }
-                    }
+                    Console.WriteLine("Чат добавлен в таблицу");
+
+                    await bot_client.SendMessage(message.Chat.Id, "Вы подписались на чат.");
                 }
             }
+
+
+            switch (update.Type)
+            {
+                case UpdateType.Message:
+                {
+                    var replyKeyboard = new ReplyKeyboardMarkup(
+                        new List<KeyboardButton[]>()
+                        {
+                            new KeyboardButton[]
+                            {
+                                new KeyboardButton("Привет!"),
+                                new KeyboardButton("Пока!"),
+                            },
+                            new KeyboardButton[]
+                            {
+                                new KeyboardButton("Позвони мне!")
+                            },
+                            new KeyboardButton[]
+                            {
+                                new KeyboardButton("Напиши моему соседу!")
+                            }
+                        }
+                    )
+                    {
+                        // автоматическое изменение размера клавиатуры, если не стоит true,
+                        // тогда клавиатура растягивается чуть ли не до луны,
+                        // проверить можете сами
+                        ResizeKeyboard = true,
+                    };
+                    return;
+                }
+            }
+
+
+
+
+            //    ////получаем объекты из бд и выводим на консоль
+            //    //var users = db.Tg_users.ToList();
+
+            //    //Console.WriteLine($"Написал пользователь с ником {message.Chat.Username}, ид чата {message.Chat.Id}");
+
+
+            //    //Console.WriteLine("Users list:");
+            //    //foreach (Tg_user u in users)
+            //    //{
+            //    //    Console.WriteLine($"{u.Tg_Id}:{u.Tg_username} - {u.Tg_chat_id}");
+            //    //}
+
+            //    //// получаем объекты из бд и выводим на консоль
+            //    //var users = db.Users.ToList();
+            //    //Console.WriteLine("Users list:");
+            //    //foreach (User u in users)
+            //    //{
+            //    //    Console.WriteLine($"{u.Id}:{u.Tg_username} - {u.Reg_date}");
+            //    //}
+
+            //}
+
+
+
+            //// Определяем, какого типа получено сообщение
+            //if (message.Text != null)
+            //{
+            //    Console.WriteLine($"Cообщение от пользователя {message.Chat.Username} в {DateTime.Now} имеет текст");
+
+            //    if (message.Text.ToUpper().Contains("ПРИВЕТ"))
+            //    {
+            //        Console.WriteLine("Пользователь поздоровался.");
+
+            //        // Можно ответить пользователю
+            //        await bot_client.SendMessage(message.Chat.Id, "Тебе тоже привет!");
+            //        return;
+            //    }
+
+            //    if (message.Text.ToUpper().Contains("РЕГИСТРАЦИЯ"))
+            //    {
+            //        Console.WriteLine("Регистрация пользователя");
+
+
+            //        // добавление данных
+            //        using (ApplicationContext db = new ApplicationContext())
+            //        {
+            //            // создаем два объекта User
+            //            User user1 = new User { Tg_username = $"{message.Chat.Username}"};
+            //            Console.WriteLine("Начало добавления пользователя");
+
+            //            // добавляем их в бд
+            //            db.Users.AddRange(user1);
+            //            db.SaveChanges();
+            //            await bot_client.SendMessage(message.Chat.Id, "Новый пользователь записан.");
+            //            Console.WriteLine("Пользователь успешно создан");
+            //        }
+            //        // получение данных
+            //        using (ApplicationContext db = new ApplicationContext())
+            //        {
+            //            // получаем объекты из бд и выводим на консоль
+            //            var users = db.Users.ToList();
+            //            Console.WriteLine("Users list:");
+            //            foreach (User u in users)
+            //            {
+            //                Console.WriteLine($"{u.Id}:{u.Tg_username} - {u.Reg_date}");
+            //            }
+            //        }
+            //    }
+            //}
 
             return;
 

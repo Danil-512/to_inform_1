@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|c:\\users\\user\\desktop\\to_inform\\bot_to_inform\\bot_to_inform\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|solutionrelative:bot_to_inform\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|c:\\users\\user\\desktop\\to_inform\\bot_to_inform\\bot_to_inform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|c:\\users\\user\\documents\\github\\to_inform_1\\bot_to_inform\\bot_to_inform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|solutionrelative:bot_to_inform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|c:\\users\\user\\desktop\\to_inform\\bot_to_inform\\bot_to_inform\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|c:\\users\\user\\documents\\github\\to_inform_1\\bot_to_inform\\bot_to_inform\\tg_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|solutionrelative:bot_to_inform\\tg_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|c:\\users\\user\\documents\\github\\to_inform_1\\bot_to_inform\\bot_to_inform\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|solutionrelative:bot_to_inform\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|c:\\users\\user\\documents\\github\\to_inform_1\\bot_to_inform\\bot_to_inform\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3056EB6D-C249-4331-965B-CB9E8C77840B}|Bot_to_inform\\Bot_to_inform.csproj|solutionrelative:bot_to_inform\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,47 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tg_user.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\Tg_user.cs",
+              "RelativeDocumentMoniker": "Bot_to_inform\\Tg_user.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\Tg_user.cs",
+              "RelativeToolTip": "Bot_to_inform\\Tg_user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T22:40:51.188Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\User.cs",
               "RelativeDocumentMoniker": "Bot_to_inform\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\User.cs",
               "RelativeToolTip": "Bot_to_inform\\User.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T23:33:57.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\DbContext.cs",
               "RelativeDocumentMoniker": "Bot_to_inform\\DbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\DbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\DbContext.cs",
               "RelativeToolTip": "Bot_to_inform\\DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T23:31:23.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\Program.cs",
               "RelativeDocumentMoniker": "Bot_to_inform\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\Program.cs",
               "RelativeToolTip": "Bot_to_inform\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAYwHsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T22:01:36.815Z",
               "EditorCaption": ""

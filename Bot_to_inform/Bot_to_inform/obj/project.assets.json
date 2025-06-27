@@ -1074,11 +1074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\Bot_to_inform.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\Bot_to_inform.csproj",
       "projectName": "Bot_to_inform",
-      "projectPath": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\Bot_to_inform.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\Bot_to_inform.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

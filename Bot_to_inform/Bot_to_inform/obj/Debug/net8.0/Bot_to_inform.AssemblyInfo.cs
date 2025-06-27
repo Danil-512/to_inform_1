@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bot_to_inform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be9a3e2a7c5ce4f04684f70d4503b5203ad604d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bot_to_inform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bot_to_inform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

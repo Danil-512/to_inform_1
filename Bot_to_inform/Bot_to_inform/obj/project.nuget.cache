@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+2NsXZPoqvg=",
+  "dgSpecHash": "FkTaDgoqWwU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\to_inform\\Bot_to_inform\\Bot_to_inform\\Bot_to_inform.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\to_inform_1\\Bot_to_inform\\Bot_to_inform\\Bot_to_inform.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.1\\microsoft.entityframeworkcore.abstractions.9.0.1.nupkg.sha512",
